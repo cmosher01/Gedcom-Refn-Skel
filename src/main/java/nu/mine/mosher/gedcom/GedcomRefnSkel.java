@@ -24,7 +24,6 @@ public class GedcomRefnSkel {
             throw new IllegalArgumentException("\n\nUsage:\n    gedcom-refn-skel INPUT.ged [...]\n");
         }
 
-        Jul.setLevel(Level.INFO);
         log();
 
         for (final String arg : args) {
